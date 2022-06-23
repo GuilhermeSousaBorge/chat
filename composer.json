@@ -1,5 +1,5 @@
 {
-    "name": "chat",
+    "name": "vendor_name/chat",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
