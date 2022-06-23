@@ -18,7 +18,7 @@ html, body {
   
   input {
     width: 600px;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     height: 50px;
     padding: 0 20px;
     font-size: 14px;
@@ -40,6 +40,13 @@ html, body {
     width: 600px;
     height: 400px;
     margin: 20px 0;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 20px;
+    overflow-y: scroll;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
   }
