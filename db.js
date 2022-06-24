@@ -5,7 +5,7 @@ async function connect() {
     }
     const mysql = require("mysql2/promise")
 
-    const connection = await mysql.createConnection("mysql://b39a061095436c:ab0f2f8a@us-cdbr-east-05.cleardb.net/heroku_880877934557cda?reconnect=true");
+    const connection = await mysql.createConnection("mysql://b39a061095436c:ab0f2f8a@us-cdbr-east-05.cleardb.net/heroku_880877934557cda");
     // const connection = await mysql.createConnection({
     //     host: 'localhost',
     //     user: 'root',
