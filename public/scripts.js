@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000')
+var socket = io('https://chatzaodobem.herokuapp.com')
 
         function renderMessage(message){
             $('.messages').append('<div class="message"><strong style="color:'+message.color+';">'+message.author+'</strong>:'+message.message+'</div>')
