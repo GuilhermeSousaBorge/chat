@@ -1,4 +1,4 @@
-//db mysql://b39a061095436c:ab0f2f8a@us-cdbr-east-05.cleardb.net/heroku_880877934557cda?reconnect=true
+
 async function connect() {
     if(global.connection && global.connection.state !== 'disconnected'){
         return global.connection
