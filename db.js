@@ -1,10 +1,11 @@
+//db mysql://b39a061095436c:ab0f2f8a@us-cdbr-east-05.cleardb.net/heroku_880877934557cda?reconnect=true
 async function connect() {
     if(global.connection && global.connection.state !== 'disconnected'){
         return global.connection
     }
     const mysql = require("mysql2/promise")
 
-    const connection = await mysql.createConnection("mysql://root:@localhost:3306/chat");
+    const connection = await mysql.createConnection("mysql://b39a061095436c:ab0f2f8a@us-cdbr-east-05.cleardb.net/heroku_880877934557cda?reconnect=true");
     // const connection = await mysql.createConnection({
     //     host: 'localhost',
     //     user: 'root',
